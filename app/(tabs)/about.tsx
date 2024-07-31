@@ -2,17 +2,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function AboutScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Hello world!</Text>
+    <View>
+      <Text className="text-red-600">Hello world!</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
