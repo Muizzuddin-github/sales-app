@@ -1,4 +1,5 @@
 import { styled, withExpoSnack } from "nativewind";
+import React from "react";
 import { Text, View } from "react-native";
 
 const StyledView = styled(View);
